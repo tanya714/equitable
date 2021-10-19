@@ -14,7 +14,9 @@ void hehe() {
   cin.tie(NULL);
   cout.tie(NULL);
 }
-
+void nothehe(){
+  cout<<"not hehe";
+}
 void solve(){
     cout<<"hello";
   
@@ -22,6 +24,7 @@ void solve(){
 
 int main(){
      hehe();
+  nothehe();
      int t=1;
      while(t--)
      solve();
